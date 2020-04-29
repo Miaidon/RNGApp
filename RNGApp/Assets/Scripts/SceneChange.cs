@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChange : MonoBehaviour
 {
-    public void Menu()
+    public void Menu()  //Vaihtaa scenen 
     {
         SceneManager.LoadScene("Menu");
     }
